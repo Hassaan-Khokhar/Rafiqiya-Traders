@@ -78,7 +78,7 @@ footer a:hover {
         }
   
         .popular-buttons .btn {
-          width: 50%; /* Full width on mobile */
+          width: 100%; /* Full width on mobile */
         }
       }
       .bg-image {
