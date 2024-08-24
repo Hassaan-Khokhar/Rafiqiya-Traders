@@ -1,0 +1,112 @@
+.zoom{
+  transition: all 0.3s;
+}
+.zoom:hover{
+
+  box-shadow: 1px 1px 10px grey;
+}
+/* CSS For Footer Starts here */
+
+footer {
+    background-color: #cbf791;
+    padding: 20px 0;
+}
+
+footer h5 {
+    color: #378D11;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+    transition: border-color 0.3s;
+}
+footer a:hover {
+    border-bottom: 2px solid #378D11;
+}
+
+
+
+.footer-icons a {
+    margin: 0 10px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+ /* Custom CSS to remove spacing between elements on desktop */
+ .search-input-group {
+    gap: 0;
+    filter: drop-shadow(5px 5px 150px black);
+  }
+
+  /* Custom CSS for mobile view */
+  @media (max-width: 767.98px) {
+    .search-input-group {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .search-input-group .form-control,
+    .search-input-group .form-select,
+    .search-input-group .btn {
+      width: 100%; /* Full width for mobile */
+    }
+  }
+      /* Custom CSS for popular buttons */
+      .popular-buttons {
+        gap: 10px;
+      }
+  
+      /* Responsive layout for mobile */
+      @media (max-width: 767.98px) {
+        .popular-buttons {
+            text-align: center;
+          flex-direction: column;
+        }
+  
+        .popular-buttons .btn {
+          width: 100%; /* Full width on mobile */
+        }
+      }
+      .bg-image {
+
+        padding: 20px;
+        width: auto;
+        height: 520px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../images/Rafiqiya-Traders-Banner.png);
+        background-size: cover;
+      }
+        /* Ensure the carousel controls are visible */
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 5%; /* Adjust width of the control areas */
+        }
+
+        .carousel-control-prev {
+            left: 0; /* Position it at the very left */
+        }
+
+        .carousel-control-next {
+            right: 0; /* Position it at the very right */
+        }
