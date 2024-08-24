@@ -73,11 +73,12 @@ footer a:hover {
       @media (max-width: 767.98px) {
         .popular-buttons {
             text-align: center;
+            align-items: center;
           flex-direction: column;
         }
   
         .popular-buttons .btn {
-          width: 100%; /* Full width on mobile */
+          width: 50%; /* Full width on mobile */
         }
       }
       .bg-image {
